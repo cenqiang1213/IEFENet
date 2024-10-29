@@ -1,0 +1,10 @@
+# 数据集源路径root、训练集、验证集、测试集地址
+path: ../datasets/UDD  # 数据集源路径root dir
+train: images/train  # root下的训练集地址 128 images
+val: images/val  # root下的验证集地址 128 images
+test:                # root下的验证集地址 128 images
+# 数据集类别信息
+nc: 3  # 数据集类别数量
+names: ['scallop','seacucumber', 'seaurchin']  # 数据集类别名
+# 数据集下载地址
+download: xx

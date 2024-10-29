@@ -1,0 +1,16 @@
+# COCO 2017 dataset http://cocodataset.org - first 128 training images
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to YOLOv5:
+#   /parent
+#     /datasets/coco128
+#     /yolov5
+# 数据集源路径root、训练集、验证集、测试集地址
+path: ../datasets/RUOD  # 数据集源路径root dir
+train: images/train  # root下的训练集地址 128 images
+val: images/val  # root下的验证集地址 128 images
+test: images/test         # root下的验证集地址 128 images
+# 数据集类别信息
+nc: 10  # 数据集类别数量
+names: ['jellyfish','holothurian', 'echinus', 'scallop', 'starfish', 'fish', 'corals', 'diver', 'cuttlefish', 'turtle']  # 数据集类别名
+# 数据集下载地址
+download: xx
